@@ -1,0 +1,153 @@
+/* Main Section CSS */
+
+#main-section {
+    margin-top: 80px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    background: linear-gradient(90deg, #E84E38 2.04%, #BA2CB8 121.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-subtitle {
+    -webkit-text-stroke: 1.8px #000000;
+    color: transparent;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-text {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: normal;
+}
+
+#main-btn {
+    width: 212px;
+    height: 75px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-weight: 500;
+}
+
+#main-btn:hover {
+    background-color: #000000d8;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .main-subtitle {
+        font-size: 50px;
+    }
+
+    .main-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #main-section {
+        text-align: center;
+    }
+
+    #main-btn {
+        margin: auto;
+    }
+}
+
+/* Partners CSS */
+
+#partners {
+    background: rgba(0, 0, 0, 0.01);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 30px;
+    border-radius: 48px;
+}
+
+.partner-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#partners img {
+    width: 100px;
+}
+
+
+/* About CSS */
+
+#about {
+    margin: 150px auto;
+    max-width: 1200px;
+}
+
+.about-title {
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about-subtitle {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.about-text {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 188.25%;
+    letter-spacing: 0.6px;
+    padding-right: 80px;
+}
+
+/* Stats CSS */
+
+#stats {
+    background: linear-gradient(90deg, #E84E38 2.07%, #BA2CB8 188.85%);
+    padding: 60px;
+    margin-bottom: 50px;
+}
+
+.stats-title {
+    font-size: 56px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 40px;
+    line-height: 188.25%;
+    text-decoration: underline;
+    text-underline-position: under; 
+    text-underline-offset: 10px;
+}
+
+.stats-count {
+    font-size: 56px;
+    font-weight: 600;
+    color: #ffffff; 
+    margin: 0;
+}
+
+.stats-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
