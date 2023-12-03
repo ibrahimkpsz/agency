@@ -62,3 +62,36 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/* Footer CSS */
+
+#footer {
+  background: linear-gradient(90deg, #E84E38 2.04%, #BA2CB8 121.72%);
+  padding: 100px 0 20px 0 !important;
+}
+
+.footer-title {
+  color: #CFCFCF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.footer-link {
+  color: #FFF !important;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24.48px !important;
+}
+
+.footer-subtitle {
+  color: #CACACA;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.48px;
+}

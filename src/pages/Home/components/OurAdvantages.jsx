@@ -1,4 +1,5 @@
 import React from 'react'
+import ArrowRight from '../../../assets/icons/arrow-right.svg'
 import Robot3 from '../../../assets/images/robot3.svg'
 import { Link } from 'react-router-dom'
 
@@ -7,7 +8,7 @@ function OurAdvantages() {
     <div className='container' id='advantages'>
         <div className="row">
             <div className="col">
-                <img src={Robot3} alt="" />
+                <img src={Robot3} alt="Robot" />
             </div>
             <div className="col d-flex flex-column justify-content-center">
                     <h3 className='advantages-title'>
@@ -16,7 +17,10 @@ function OurAdvantages() {
                     </h3>
                     <h4 className='advantages-subtitle'>Neden <span className='subtitle-span'>Biz?</span></h4>
                     <p className='advantages-text'>Deneyimli ekibimiz, müşteri odaklı yaklaşımımız ve yaratıcı çözümlerimizle fark yaratıyoruz. Sizi dinliyor, ihtiyaçlarınızı anlıyor ve işinizi ileriye taşımanız için buradayız.</p>
-                    <Link to="/referanslar" className='btn btn-dark rounded-5 mt-3 py-2 w-25 advantages-btn'>Referanslar</Link>
+                    <Link to="/referanslar" className='btn btn-dark rounded-5 mt-3 py-2 advantages-btn'>
+                        <img src={ArrowRight} alt="Arrow Right" />{" "}
+                        Referanslar
+                    </Link>
                 </div>
         </div>
     </div>
