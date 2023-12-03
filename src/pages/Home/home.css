@@ -151,3 +151,78 @@
     color: #ffffff;
     margin: 0;
 }
+
+/* Services CSS */
+
+#services {
+    margin: 100px auto;
+}
+
+.services-header {
+    color: rgba(0, 0, 0, 0.79);
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.service-card {
+    padding: 56px;
+    margin-bottom: 20px;
+    border-radius: 48px;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(176, 49, 49, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.service-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.2px; /* 141.818% */
+    letter-spacing: -0.24px;
+}
+
+.service-text {
+    color: #727272;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+
+/* Our Advantages CSS */
+
+#advantages {
+    margin: 150px auto;
+    max-width: 1200px;
+}
+
+.advantages-title {
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.advantages-subtitle {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.subtitle-span {
+    background: linear-gradient(90deg, #E84E38 2.04%, #BA2CB8 270.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.advantages-text {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 188.25%;
+    letter-spacing: 0.6px;
+    padding-right: 80px;
+}
