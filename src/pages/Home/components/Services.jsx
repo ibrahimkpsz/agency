@@ -19,7 +19,7 @@ function Services() {
                             <p className='service-text'>İşletmenizin dijital yüzünü oluştururken stratejik düşünce ve özgün tasarımı birleştiriyoruz.</p>
                         </div>
                         <div className="col-4 text-center">
-                            <img src={service_web} alt="" />
+                            <img src={service_web} className='img-fluid h-100' alt="" />
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ function Services() {
                             <p className='service-text'>Arama motorlarında ön plana çıkmak için güçlü SEO stratejileri geliştiriyoruz.</p>
                         </div>
                         <div className="col-4 text-center">
-                            <img src={service_seo} alt="" />
+                            <img src={service_seo} className='img-fluid h-100' alt="" />
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ function Services() {
                             <p className='service-text'>Sosyal medya yönetimi, içerik pazarlaması ve reklam kampanyaları ile işletmenizi öne çıkarıyoruz.</p>
                         </div>
                         <div className="col-4 text-center">
-                            <img src={service_marketting} alt="" />
+                            <img src={service_marketting} className='img-fluid h-100' alt="" />
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function Services() {
                             <p className='service-text'>Mobil cihazlarda mükemmel kullanıcı deneyimi sağlayan özel mobil uygulamalar geliştiriyoruz.</p>
                         </div>
                         <div className="col-4 text-center">
-                            <img src={service_mobile} alt="" />
+                            <img src={service_mobile} className='img-fluid h-100' alt="" />
                         </div>
                     </div>
                 </div>

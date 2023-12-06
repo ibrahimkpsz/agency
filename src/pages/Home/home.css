@@ -43,29 +43,7 @@
     background-color: #000000d8;
 }
 
-@media only screen and (max-width: 1200px) {
-    .main-title {
-        font-size: 36px;
-    }
 
-    .main-subtitle {
-        font-size: 50px;
-    }
-
-    .main-text {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 990px) {
-    #main-section {
-        text-align: center;
-    }
-
-    #main-btn {
-        margin: auto;
-    }
-}
 
 /* Partners CSS */
 
@@ -259,4 +237,122 @@
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .main-subtitle {
+        font-size: 50px;
+    }
+
+    .main-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #main-section {
+        text-align: center;
+    }
+
+    #main-btn {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .about-title {
+        font-size: 16px;
+    }
+
+    .about-subtitle {
+        font-size: 36px;
+    }
+
+    .about-text {
+        font-size: 18px;
+        padding-right: 0px;
+    }
+
+    #stats {
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+
+    .stats-title {
+        font-size: 48px;
+    }
+
+    .stats-count {
+        font-size: 48px;
+    }
+
+    .stats-text {
+        font-size: 16px;
+    }
+
+    .services-header {
+        font-size: 36px;
+    }
+
+    .service-card {
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    .service-title {
+        font-size: 20px;
+    }
+
+    .service-text {
+        font-size: 14px;
+    }
+
+    #advantages {
+        margin: 150px auto;
+    }
+
+    .advantages-image {
+        transform: scaleX(-1);
+    }
+
+    .advantages-title {
+        color: rgba(0, 0, 0, 0.61);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .advantages-subtitle {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .subtitle-span {
+        background: linear-gradient(90deg, #E84E38 2.04%, #BA2CB8 270.04%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .advantages-text {
+        color: rgba(0, 0, 0, 0.55);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 188.25%;
+        letter-spacing: 0.6px;
+        padding-right: 0px;
+    }
+
+    .advantages-btn {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 180px;
+        height: 50px;
+    }
 }

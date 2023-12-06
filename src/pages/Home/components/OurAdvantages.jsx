@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 function OurAdvantages() {
   return (
     <div className='container' id='advantages'>
-        <div className="row">
-            <div className="col">
-                <img src={Robot3} alt="Robot" />
+        <div className="row row-cols-1 row-cols-lg-2 row-cols-md-2">
+            <div className="col text-center text-lg-start">
+                <img src={Robot3} className='img-fluid advantages-image' alt="Robot" />
             </div>
             <div className="col d-flex flex-column justify-content-center">
                     <h3 className='advantages-title'>

@@ -1,0 +1,100 @@
+#about-header {
+    background: linear-gradient(90deg, #E84E38 2.04%, #BA2CB8 199.72%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.01);
+    text-align: center;
+    padding: 100px;
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 576px) {
+  #about-header {
+    font-size: 40px;
+    padding: 70px;
+  }
+}
+
+#waw-container {
+    margin: 100px auto;
+}
+
+.waw-image {
+    border-radius: 185.75px 11.4px 74.78px 11.3px;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 50px;
+    text-align: center;
+}
+
+.waw-title {
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.waw-subtitle {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.waw-text {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 188.25%;
+    letter-spacing: 0.6px;
+}
+
+#team {
+    margin: 200px auto;
+}
+
+.team-title {
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.team-subtitle {
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.staff-card {
+    width: 345px;
+    height: 345px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #E84E38 2.04%, #FC8888 199.72%);
+    box-shadow: 0px 4px 13.1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.staff-image {
+    margin-bottom: 40px;
+}
+
+.staff-details {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    width: 100%;
+    border-radius: 0px 0px 8px 10px;
+    background: #FFF;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.staff-name {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.staff-title {
+    color: rgba(0, 0, 0, 0.28);;
+    font-size: 14px;
+    font-weight: 600;
+}

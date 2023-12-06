@@ -5,8 +5,8 @@ function About() {
   return (
     <>
         <div className='container' id='about'>
-            <div className="row">
-                <div className="col">
+            <div className="row row-cols-1 row-cols-lg-2 row-cols-md-2">
+                <div className="col mb-lg-0 mb-4">
                     <img src={Robot2} alt="" />
                 </div>
                 <div className="col d-flex flex-column justify-content-center">
