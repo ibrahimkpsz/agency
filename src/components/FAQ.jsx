@@ -1,5 +1,5 @@
 import React from 'react'
-import FAQImage from '../../../assets/images/faq.svg'
+import FAQImage from '../assets/images/faq.svg'
 
 function FAQ() {
   return (

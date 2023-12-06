@@ -6,7 +6,7 @@ import About from './components/About.jsx'
 import Stats from './components/Stats.jsx'
 import Services from './components/Services.jsx'
 import OurAdvantages from './components/OurAdvantages.jsx'
-import FAQ from './components/FAQ.jsx'
+import FAQ from '../../components/FAQ.jsx'
 
 
 function App() {

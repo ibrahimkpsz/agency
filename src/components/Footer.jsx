@@ -4,10 +4,13 @@ import FacebookIcon from '../assets/icons/brand-icons/facebook.svg'
 import InstagramIcon from '../assets/icons/brand-icons/instagram.svg'
 import LinkedinIcon from '../assets/icons/brand-icons/linkedin.svg'
 import { Link } from 'react-router-dom'
+import Contact from './Contact'
 
 function Footer() {
   return (
-    <div className="container-fluid" id='footer'>
+    
+    <div className="container-fluid position-relative" id='footer'>
+        <Contact></Contact>
         <footer className="container mx-auto row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
             <div className="col mb-3">
                 <Link to="/" className="d-flex align-items-center mb-3 link-light gap-2 text-decoration-none">
