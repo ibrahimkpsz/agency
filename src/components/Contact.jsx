@@ -4,7 +4,7 @@ import SearchIcon from '../assets/icons/search.svg'
 function Contact() {
   return (
     <div className='container' id='contact-box'>
-        <h5 className='contact-title'>BİZE ULAŞIN</h5>
+        <h5 className='contact-header'>BİZE ULAŞIN</h5>
         <p className='contact-text'>Projeniz mi var?</p>
         <form name='contact-email' netlify>
           <div class="input-group mb-3 justify-content-center">

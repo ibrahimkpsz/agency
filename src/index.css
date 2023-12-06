@@ -75,7 +75,7 @@ body {
   box-shadow: 0px -5px 4px 0px rgba(0, 0, 0, 0.02), 0px 4px 4px 0px rgba(0, 0, 0, 0.13);
 }
 
-.contact-title {
+.contact-header {
   text-align: center;
   color: rgba(0, 0, 0, 0.39);
   font-size: 16px;
@@ -92,7 +92,7 @@ body {
 .contact-input {
   width: 485px;
   max-width: 400px;
-  padding: 30px;
+  padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.09);
   background: #FFF;
 }
@@ -101,6 +101,20 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.09);
   background-color: transparent;
 }
+
+@media only screen and (max-width: 576px) {
+  #contact-box {
+    border-radius: 0;
+    padding: 25px;
+  }
+  .contact-input {
+    max-width: 300px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    background: #FFF;
+  }
+}
+
 
 /* Footer CSS */
 

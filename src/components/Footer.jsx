@@ -53,7 +53,7 @@ function Footer() {
             </ul>
             </div>
         </footer>
-        <div className='container py-5 d-flex align-items-center gap-3'>
+        <div className='container ps-4 py-5 d-flex align-items-center gap-3'>
             <a href="#">
                 <img src={FacebookIcon} width={20} alt="" />
             </a>
