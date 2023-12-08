@@ -20,9 +20,6 @@ function Navbar() {
                         <NavLink to="/hakkimizda" activeClassName="active" className='nav-link'>Hakkımızda</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink to="/hizmetlerimiz" activeClassName="active" className='nav-link'>Hizmetlerimiz</NavLink>
-                    </li>
-                    <li className='nav-item'>
                         <NavLink to="/referanslar" activeClassName="active" className='nav-link'>Referanslar</NavLink>
                     </li>
                     <li className='nav-item'>

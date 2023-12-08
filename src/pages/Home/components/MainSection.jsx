@@ -1,5 +1,6 @@
 import Robot1 from '../../../assets/images/robot1.svg'
 import ArrowRight from '../../../assets/icons/arrow-right.svg'
+import { Link } from 'react-router-dom'
 
 function App() {
   
@@ -11,9 +12,9 @@ function App() {
                 <h1 className='main-title'>Profesyonel</h1>
                 <h2 className='main-subtitle'>Dijital Çözümler</h2>
                 <p className='main-text'>Inovatif Çözümlerle, İnternetin Gücünü Keşfedin</p>
-                <button className='btn btn-dark py-3' id='main-btn'>
+                <Link to="/hakkimizda" className='btn btn-dark py-4' id='main-btn'>
                     <span><img src={ArrowRight} alt="Arrow Right" /></span> &nbsp; Hakkımızda
-                </button>
+                </Link>
             </div>
             <div className="col d-flex justify-content-lg-end justify-content-center pe-lg-5 py-5 py-lg-0">
                 <img src={Robot1} alt="Robot" />
