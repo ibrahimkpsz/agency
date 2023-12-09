@@ -3,7 +3,7 @@ import Logo from '../assets/images/logo.svg'
 
 function Navbar() {
   return (
-    <nav className='navbar navbar-expand-lg container-fluid shadow-sm'>
+    <nav className='navbar navbar-expand-lg container-fluid bg-white shadow-sm'>
         <div className='container'>
             <a href="/" className='navbar-brand'>
                 <img src={Logo} alt="Navbar Logo" />
